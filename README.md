@@ -1,16 +1,25 @@
-# frontend
+# Flutter Firebase Integration Practice
 
-A new Flutter project.
+A Flutter project to practice integrating Firebase services like Authentication and Firestore.
 
-## Getting Started
+## Quick Start
 
-This project is a starting point for a Flutter application.
+1. Install Flutter: https://docs.flutter.dev/get-started/install
+2. Run from the project root:
 
-A few resources to get you started if this is your first Flutter project:
+```bash
+flutter pub get
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Firebase Setup
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add your platform-specific Firebase config files locally (do not commit):
+- Android: `android/app/google-services.json`
+- iOS/macOS: `ios/Runner/GoogleService-Info.plist` or `macos/Runner/GoogleService-Info.plist`
+
+Download these from the Firebase Console and place them in the paths above.
+
+## Important
+
+Do not commit API keys or Firebase config files. They are ignored by `.gitignore`.
